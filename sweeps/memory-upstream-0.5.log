@@ -1,0 +1,79 @@
+v8-v7-richards: base 5812 KiB, candidate 5596 KiB
+v8-v7-deltablue: base 6228 KiB, candidate 6288 KiB
+v8-v7-crypto: base 6988 KiB, candidate 6868 KiB
+v8-v7-raytrace: base 7284 KiB, candidate 7088 KiB
+v8-v7-earley-boyer: base 20496 KiB, candidate 20556 KiB
+v8-v7-regexp: base 17128 KiB, candidate 17340 KiB
+v8-v7-splay: base 226952 KiB, candidate 226728 KiB
+v8-v7-navier-stokes: base 7504 KiB, candidate 7432 KiB
+octane-richards: base 5756 KiB, candidate 5728 KiB
+octane-deltablue: base 6300 KiB, candidate 6476 KiB
+octane-crypto: base 6964 KiB, candidate 6540 KiB
+octane-raytrace: base 7364 KiB, candidate 6940 KiB
+octane-earley-boyer: base 20312 KiB, candidate 20472 KiB
+octane-regexp: base 17276 KiB, candidate 17452 KiB
+octane-splay: base 227124 KiB, candidate 226852 KiB
+octane-navier-stokes: base 7628 KiB, candidate 7520 KiB
+octane-pdfjs: base 70176 KiB, candidate 71688 KiB
+octane-mandreel: base 113300 KiB, candidate 112940 KiB
+octane-gameboy: base 21804 KiB, candidate 21528 KiB
+octane-code-load: base 34744 KiB, candidate 35184 KiB
+octane-box2d: base 15636 KiB, candidate 14876 KiB
+octane-zlib: base 16936 KiB, candidate 17092 KiB
+octane-typescript: base 82080 KiB, candidate 82144 KiB
+awfy-DeltaBlue: base 21744 KiB, candidate 22400 KiB
+awfy-Richards: base 7848 KiB, candidate 7656 KiB
+awfy-Json: base 9044 KiB, candidate 9188 KiB
+awfy-CD: base 8832 KiB, candidate 8780 KiB
+awfy-Havlak: base 33384 KiB, candidate 33252 KiB
+awfy-Bounce: base 7968 KiB, candidate 8276 KiB
+awfy-List: base 8064 KiB, candidate 7936 KiB
+awfy-Mandelbrot: base 7084 KiB, candidate 6968 KiB
+awfy-NBody: base 8156 KiB, candidate 8492 KiB
+awfy-Permute: base 7228 KiB, candidate 7228 KiB
+awfy-Queens: base 8192 KiB, candidate 8088 KiB
+awfy-Sieve: base 7880 KiB, candidate 7924 KiB
+awfy-Storage: base 8300 KiB, candidate 8068 KiB
+awfy-Towers: base 7404 KiB, candidate 7732 KiB
+| Program | base KiB | candidate KiB | candidate / base | base collections | base live KiB | base reserved KiB | base budget KiB | base code KiB | candidate collections | candidate live KiB | candidate reserved KiB | candidate budget KiB | candidate code KiB |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| v8-v7-richards | 5,812 | 5,596 | 0.96 | 1 | 104 | 1,088 | 1,361 | 37 | 1 | 104 | 1,090 | 1,363 | 37 |
+| v8-v7-deltablue | 6,228 | 6,288 | 1.01 | 36 | 113 | 1,408 | 1,754 | 54 | 36 | 113 | 1,412 | 1,759 | 54 |
+| v8-v7-crypto | 6,988 | 6,868 | 0.98 | 1 | 139 | 1,273 | 1,584 | 135 | 1 | 139 | 1,279 | 1,591 | 134 |
+| v8-v7-raytrace | 7,284 | 7,088 | 0.97 | 359 | 122 | 1,429 | 1,787 | 74 | 359 | 122 | 1,419 | 1,774 | 75 |
+| v8-v7-earley-boyer | 20,496 | 20,556 | 1.00 | 85 | 3,092 | 14,161 | 16,209 | 469 | 85 | 3,092 | 14,161 | 16,209 | 469 |
+| v8-v7-regexp | 17,128 | 17,340 | 1.01 | 21 | 3,052 | 4,877 | 9,156 | 290 | 20 | 3,059 | 11,807 | 9,178 | 290 |
+| v8-v7-splay | 226,952 | 226,728 | 1.00 | 11 | 68,801 | 232,215 | 216,242 | 31 | 11 | 68,801 | 232,216 | 216,243 | 31 |
+| v8-v7-navier-stokes | 7,504 | 7,432 | 0.99 | 2 | 1,251 | 3,166 | 3,927 | 56 | 2 | 1,251 | 3,166 | 3,927 | 56 |
+| octane-richards | 5,756 | 5,728 | 1.00 | 1 | 104 | 1,091 | 1,365 | 45 | 1 | 104 | 1,093 | 1,367 | 45 |
+| octane-deltablue | 6,300 | 6,476 | 1.03 | 37 | 180 | 1,411 | 1,758 | 62 | 37 | 180 | 1,416 | 1,764 | 62 |
+| octane-crypto | 6,964 | 6,540 | 0.94 | 1 | 149 | 1,283 | 1,596 | 142 | 1 | 141 | 1,288 | 1,602 | 142 |
+| octane-raytrace | 7,364 | 6,940 | 0.94 | 360 | 126 | 1,431 | 1,790 | 82 | 360 | 126 | 1,443 | 1,804 | 82 |
+| octane-earley-boyer | 20,312 | 20,472 | 1.01 | 82 | 3,463 | 16,022 | 18,070 | 477 | 82 | 3,463 | 16,022 | 18,070 | 477 |
+| octane-regexp | 17,276 | 17,452 | 1.01 | 21 | 3,055 | 7,596 | 9,166 | 369 | 21 | 3,062 | 4,849 | 9,187 | 369 |
+| octane-splay | 227,124 | 226,852 | 1.00 | 11 | 68,808 | 232,219 | 216,251 | 40 | 11 | 68,808 | 232,228 | 216,254 | 40 |
+| octane-navier-stokes | 7,628 | 7,520 | 0.99 | 2 | 1,254 | 3,170 | 3,932 | 64 | 2 | 1,254 | 3,170 | 3,933 | 64 |
+| octane-pdfjs | 70,176 | 71,688 | 1.02 | 33 | 5,553 | 34,063 | 33,921 | 4,501 | 37 | 5,159 | 39,278 | 39,316 | 4,436 |
+| octane-mandreel | 113,300 | 112,940 | 1.00 | 4 | 865 | 3,181 | 3,968 | 15,939 | 4 | 865 | 3,182 | 3,970 | 15,939 |
+| octane-gameboy | 21,804 | 21,528 | 0.99 | 21 | 2,264 | 10,850 | 12,898 | 900 | 21 | 2,266 | 10,854 | 12,902 | 898 |
+| octane-code-load | 34,744 | 35,184 | 1.01 | 12 | 6,852 | 15,778 | 20,558 | 5,362 | 12 | 6,863 | 16,111 | 20,589 | 5,363 |
+| octane-box2d | 15,636 | 14,876 | 0.95 | 15 | 1,104 | 5,809 | 7,107 | 1,060 | 15 | 1,246 | 5,957 | 7,293 | 1,060 |
+| octane-zlib | 16,936 | 17,092 | 1.01 | 3 | 1,546 | 3,251 | 4,639 | 1,302 | 3 | 1,546 | 3,259 | 4,640 | 1,301 |
+| octane-typescript | 82,080 | 82,144 | 1.00 | 7 | 31,305 | 84,328 | 93,917 | 4,535 | 7 | 31,306 | 84,479 | 93,920 | 4,534 |
+| awfy-DeltaBlue | 21,744 | 22,400 | 1.03 | 13 | 6,303 | 26,722 | 26,996 | 470 | 13 | 6,303 | 26,727 | 27,002 | 470 |
+| awfy-Richards | 7,848 | 7,656 | 0.98 | 0 | 0 | 830 | 1,024 | 470 | 0 | 0 | 830 | 1,024 | 470 |
+| awfy-Json | 9,044 | 9,188 | 1.02 | 49 | 391 | 1,906 | 2,356 | 470 | 49 | 391 | 1,906 | 2,356 | 470 |
+| awfy-CD | 8,832 | 8,780 | 0.99 | 227 | 419 | 2,068 | 2,585 | 470 | 227 | 419 | 2,073 | 2,590 | 470 |
+| awfy-Havlak | 33,384 | 33,252 | 1.00 | 55 | 8,725 | 37,231 | 39,276 | 470 | 55 | 8,725 | 37,233 | 39,278 | 470 |
+| awfy-Bounce | 7,968 | 8,276 | 1.04 | 11 | 187 | 1,383 | 1,729 | 470 | 11 | 187 | 1,383 | 1,729 | 470 |
+| awfy-List | 8,064 | 7,936 | 0.98 | 3 | 173 | 1,379 | 1,724 | 470 | 3 | 173 | 1,379 | 1,724 | 470 |
+| awfy-Mandelbrot | 7,084 | 6,968 | 0.98 | 0 | 0 | 283 | 1,024 | 470 | 0 | 0 | 283 | 1,024 | 470 |
+| awfy-NBody | 8,156 | 8,492 | 1.04 | 58 | 174 | 311 | 1,024 | 470 | 58 | 174 | 311 | 1,024 | 470 |
+| awfy-Permute | 7,228 | 7,228 | 1.00 | 0 | 0 | 377 | 1,024 | 470 | 0 | 0 | 377 | 1,024 | 470 |
+| awfy-Queens | 8,192 | 8,088 | 0.99 | 5 | 172 | 1,182 | 1,478 | 470 | 5 | 172 | 1,182 | 1,478 | 470 |
+| awfy-Sieve | 7,880 | 7,924 | 1.01 | 230 | 171 | 876 | 1,024 | 470 | 230 | 171 | 876 | 1,024 | 470 |
+| awfy-Storage | 8,300 | 8,068 | 0.97 | 500 | 331 | 1,383 | 1,729 | 470 | 500 | 331 | 1,383 | 1,729 | 470 |
+| awfy-Towers | 7,404 | 7,732 | 1.04 | 0 | 0 | 803 | 1,024 | 470 | 0 | 0 | 803 | 1,024 | 470 |
+
+Empty script: base 4,672 KiB, candidate 4,584 KiB.
+Geometric mean of candidate / base over 37 programs: 0.997
